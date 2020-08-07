@@ -1,14 +1,25 @@
 .jumbotron {
     background-size: 100% 100%;
+    background-image:linear-gradient(
+        to bottom,
+        rgba(205, 215, 247, 0.8),
+        rgba(58, 67, 140, 0.8)
+    ),
+    url(../img/blocks.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 28rem;
 }
 
-.background-blue {
-    background-color: #bddeed;
+.background-a {
+    background-color: #d1d2db;
 }
 
-.background-lb {
-    background-color: #87a2d6;
+.background-b {
+    background-color: #a2a7d1;
 }
 
 .profile-photo {
@@ -16,13 +27,25 @@
     width: 15rem;
 }
 
-div {
-    padding-top: 5px;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-  }
+.page-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-  .skills-icon{
-      color: white !important;
-  }
+.skills-icon{
+    color: rgb(243, 230, 205) !important;
+}
+
+.skills-icon:hover {
+    color:  wheat !important;
+}
+
+.popover-body {
+    background-color: wheat;
+}
+
+.bs-popover-right > .arrow::after {
+    left: 1px;
+    border-width: 0.5rem 0.5rem 0.5rem 0;
+    border-right-color: #a7aeeb;
+}

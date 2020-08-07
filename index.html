@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Ana's Portfolio</title>
+  <title>Bautista's Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,9 @@
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!--JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -26,7 +29,7 @@
 
   <!-- Navigation  -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Ana</a>
+    <a class="navbar-brand" href="#">Bautista</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,13 +38,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#Extracurriculars">Extracurriculars</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#projects">Projects</a>
@@ -51,82 +57,117 @@
   </nav>
 
   <!-- Header  -->
+<section id="header" class=""> 
   <div class="jumbotron jumbotron-fluid">
     <div class="container text-center">
       <img src="https://az-pe.com/wp-content/uploads/2018/05/kemptons-blank-profile-picture.jpg" class="img-fluid" width="384" height="267">
-      <h1>Ana Bautista</h1>
-      <h3>Student | place holder</h3>
+      <h1>A. Bautista</h1>
+      <h3>Student</h3>
     </div>
   </div>
+</section>
 
 <!--About-->
-<section id="about" class="background-lb">
+<section id="about" class="background-b">
   <div class="container page-section">
     <div class="row">
       <div class="col-12">
         <h1 class="text-center heading-text">About</h1>
       </div>
       <div class="col-12">
-        Hi, I'm Ana.
+        I am student at Central Park East Highschool.
       </div>
     </div>
   </div>
 </section>
 
   <!--Education-->
-  <section id="education" class="background-blue">
-    <div class="container" page-section>
+  <section id="education" class="background-a">
+    <div class="container page-section">
       <div class="row">
         <div class="col-12">
           <h1 class= "text-center">Education</h1>
         </div>
         <div class="col-12">
-          <p>Central Park High School | Relevant coursework: AP Comp Sci P </p>
+          <p>School: Central Park High School <br> Relevant coursework: AP Comp Sci P</p>
         </div>
       </div>
     </div>
   </section>
 
   <!--Skills  -->
-  <section id="skills" class= "background-lb">
+  <section id="skills" class= "background-b">
     <div class="container page-section">
       <div class="row text-center">
         <div class="col-12">
           <h1 class= "text-center header-text"> Skills </h1>
         </div>
         <div class="col-4">
-          <i class="fas fa-chart-pie fa-9x"></i>
+          <a class="skills-icon" title="Organization" data-toggle="popover" data-placement="left" data-content="v organized" data-trigger="hover">
+            <i class="fas fa-chart-pie fa-9x"></i>
+          </a>
           <h4> <br> Organization</h4>
         </div>
         <div class="col-4">
-          <a class="skills-icon">
+          <a class="skills-icon" title="Science" data-toggle="popover" data-placement="left" data-content="chem was easy" data-trigger="hover">
           <i class="fas fa-atom fa-9x"></i>
           </a>
           <h4><br> Science</h4>
         </div>
         <div class="col-4">
+          <a class="skills-icon" title="Math" data-toggle="popover" data-placement="left" data-content="math = easy" data-trigger="hover">
           <i class="fas fa-calculator fa-9x"></i>
+        </a>
           <h4><br> Math</h4>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12"> <br> <br>
+        </div>
+        <div class="col-4">
+          <a class="skills-icon" title="Flexibility" data-toggle="popover" data-placement="left" data-content="flexible" data-trigger="hover">
+            <i class="fas fa-hourglass-end fa-9x"></i>
+          </a>
+          <h4> <br>Flexibility</h4>
+        </div>
+        <div class="col-4">
+          <a class="skills-icon" title="Red bull gives you wngs" data-toggle="popover" data-placement="left" data-content="lol" data-trigger="hover">
+          <i class="fas fa-battery-full fa-9x"></i>
+          </a>
+          <h4><br>Energetic</h4>
+        </div>
+        <div class="col-4">
+          <a class="skills-icon" title=":)" data-toggle="popover" data-placement="left" data-content="lololol" data-trigger="hover">
+          <i class="fas fa-smile-beam fa-9x"></i>
+        </a>
+          <h4><br>Optimistic</h4>
         </div>
       </div>
     </div>
   </section>
 
   <!--Experience -->
-  <section id="experience" class="background-blue">
+  <section id="Extracurriculars" class="background-a">
     <div class="container page-section">
       <div class="row">
         <div class="col-12">
-          <h1 class= "text-center header-text">Experience</h1>
+          <h1 class= "text-center header-text">Extracurriculars</h1>
         </div>
         <div class="col-12">
         <h5>National Honor Society</h5>
         <ul>
           <li> volunteered at school</li>
         </ul>
-        <h5>Summer Youth Program</h5>
+        <h5>Film Club</h5>
         <ul>
-          <li>current</li>
+          <li>created one short film with a group of 12 students</li>
+        </ul>
+        <ul>
+          <li>learned the different types of camera shots</li>
+        </ul>
+        <h5>Coding Club</h5>
+        <ul>
+          <li>created several small projects using Processing (java) or scratch</li>
         </ul>
         </div>
       </div>
@@ -134,18 +175,54 @@
     </section>
 
   <!--Projects -->
-  <section id="projects" class="background-lb">
+  <section id="projects" class="background-b">
     <div class="container page-section">
       <div class="row">
         <div class="col-12">
           <h1 class="text-center heading-text">Projects</h1>
         </div>
         <div class="col-12">
-          Hi, I'm Ana.
+          <h5>Check out my scratch projects!</h5>
+        <br>
         </div>
+        <div class="col-4">
+          <a href= "https://scratch.mit.edu/projects/399998501" target="_blank"> 
+            <img class= "img-fluid" src="img/lol.png" >
+           </a>
+        </div>
+        <div class="col-4">
+          <a href= "https://scratch.mit.edu/projects/356883422" target="_blank"> 
+            <img class= "img-fluid" src="img/yerr.png" >
+           </a>
+        </div>
+        <div class="col-4">
+          <a href= "https://scratch.mit.edu/projects/350864109" target="_blank"> 
+            <img class= "img-fluid" src="img/weee.jpg" >
+           </a>
+        </div>
+        <a href= "https://scratch.mit.edu/users/skirtchaser/" target="_blank"> <br> More! </a> 
       </div>
     </div>
   </section>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 text-lg-left">Copyright © A Bautista 2020</div>
+      <div class="col-lg-6"> <br>
+          <br> <br>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- pop over -->
+<script>
+  $(document).ready(function () {
+      $('[data-toggle="popover"]').popover();
+  });
+</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
